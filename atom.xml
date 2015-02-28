@@ -1,110 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Georgetech</title>
-  <meta name="author" content="George Bonner">
-
-  
-  <meta name="description" content="Developer tips on Javascript, Node, Backbone, etc.">
-  
-  <meta name="keywords" content="javascript,backbone,node,">
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://georgebonnr.github.io/techwritings/">
-  <link href="/techwritings/favicon.png" rel="icon">
-  <link href="/techwritings/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/techwritings/javascripts/modernizr-2.0.js"></script>
-  <script src="/techwritings/javascripts/ender.js"></script>
-  <script src="/techwritings/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/techwritings/atom.xml" rel="alternate" title="Georgetech" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-44899766-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/techwritings/">Georgetech</a></h1>
-    <h2><a href="http://www.georgebonnr.com">www.georgebonnr.com</a> > tech blog</h2>
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/techwritings/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:georgebonnr.github.io/techwritings" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/techwritings/">Blog</a></li>
-  <li><a href="/techwritings/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Georgetech]]></title>
+  <link href="http://georgebonnr.github.io/techwritings/atom.xml" rel="self"/>
+  <link href="http://georgebonnr.github.io/techwritings/"/>
+  <updated>2015-02-28T14:20:25-08:00</updated>
+  <id>http://georgebonnr.github.io/techwritings/</id>
+  <author>
+    <name><![CDATA[George Bonner]]></name>
     
-      <h1 class="entry-title"><a href="/techwritings/blog/2014/02/08/how-to-crash-chrome-v8-in-one-line/">How to Crash Chrome V8 in One Line</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2014-02-08T14:29:00-08:00" pubdate data-updated="true">Feb 8<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>One of the best pranks you can play on JavaScript is setting a length property on an object and giving it a negative value.</p>
+  <entry>
+    <title type="html"><![CDATA[How to Crash Chrome V8 in One Line]]></title>
+    <link href="http://georgebonnr.github.io/techwritings/blog/2014/02/08/how-to-crash-chrome-v8-in-one-line/"/>
+    <updated>2014-02-08T14:29:00-08:00</updated>
+    <id>http://georgebonnr.github.io/techwritings/blog/2014/02/08/how-to-crash-chrome-v8-in-one-line</id>
+    <content type="html"><![CDATA[<p>One of the best pranks you can play on JavaScript is setting a length property on an object and giving it a negative value.</p>
 
 <p>Example:</p>
 
@@ -165,81 +79,27 @@ Array.prototype.push.call(obj, 'thud');
 Yay, the internet!</p>
 
 <p>I&rsquo;m sure there are tons of other &lsquo;one-liners&rsquo; out there that can kill your browser – more than just the usual suspects like  <code>while (true) {true}</code>.  Anybody got any others they want to share?</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/techwritings/blog/2014/01/19/">Prototypes Are Not Classes</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-01-19T19:55:00-08:00" pubdate data-updated="true">Jan 19<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>&ldquo;Many people can and do say that “JavaScript has classes.” As a very rough, hand-wavy way of saying that “JavaScript has things that define the characteristics of one or more objects,” this is true. And many people lead healthy, happy, and productive lives without caring whether this statement is actually true, or a wrong but convenient shorthand.&rdquo;</p>
+  <entry>
+    <title type="html"><![CDATA[Prototypes Are Not Classes]]></title>
+    <link href="http://georgebonnr.github.io/techwritings/blog/2014/01/19/"/>
+    <updated>2014-01-19T19:55:00-08:00</updated>
+    <id>http://georgebonnr.github.io/techwritings/blog/2014/01/</id>
+    <content type="html"><![CDATA[<p>&ldquo;Many people can and do say that “JavaScript has classes.” As a very rough, hand-wavy way of saying that “JavaScript has things that define the characteristics of one or more objects,” this is true. And many people lead healthy, happy, and productive lives without caring whether this statement is actually true, or a wrong but convenient shorthand.&rdquo;</p>
 
 <p>This is a great article!
 <a href="http://raganwald.com/2014/01/19/prototypes-are-not-classes.html">http://raganwald.com/2014/01/19/prototypes-are-not-classes.html</a></p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/techwritings/blog/2013/11/11/i-just-presented-at-launch-hackathon/">I Just Presented as a Finalist at LAUNCH Hackathon</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-11-11T16:33:00-08:00" pubdate data-updated="true">Nov 11<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I had no idea my first hackathon experience would be so awesome, fun, and educational.</p>
+  <entry>
+    <title type="html"><![CDATA[I Just Presented as a Finalist at LAUNCH Hackathon]]></title>
+    <link href="http://georgebonnr.github.io/techwritings/blog/2013/11/11/i-just-presented-at-launch-hackathon/"/>
+    <updated>2013-11-11T16:33:00-08:00</updated>
+    <id>http://georgebonnr.github.io/techwritings/blog/2013/11/11/i-just-presented-at-launch-hackathon</id>
+    <content type="html"><![CDATA[<p>I had no idea my first hackathon experience would be so awesome, fun, and educational.</p>
 
 <p>Here are a few specific things I learned from this weekend:</p>
 
@@ -302,42 +162,15 @@ Congrats to the top 5 teams – they showcased some amazing products and I can&r
 <h4>3. Building a personal site with angular, intention.js, and lots of love.</h4>
 
 <p>Check back soon for posts on these!</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/techwritings/blog/2013/10/28/prototyping-a-parse-like-server-in-node/">Prototyping a Parse-like Server in Node</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-28T03:12:00-07:00" pubdate data-updated="true">Oct 28<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Parse is a REST-ful backend-as-a-service that’s easy to set up and use with your app.  I highly recommend it. Today, however, I’m going to show you how to take a standard chat application and go from using Parse to using our own server written in Node. Why? Because it’ll be good for you (you’ve been meaning to learn Node for a while now, right?).</p>
+  <entry>
+    <title type="html"><![CDATA[Prototyping a Parse-like Server in Node]]></title>
+    <link href="http://georgebonnr.github.io/techwritings/blog/2013/10/28/prototyping-a-parse-like-server-in-node/"/>
+    <updated>2013-10-28T03:12:00-07:00</updated>
+    <id>http://georgebonnr.github.io/techwritings/blog/2013/10/28/prototyping-a-parse-like-server-in-node</id>
+    <content type="html"><![CDATA[<p>Parse is a REST-ful backend-as-a-service that’s easy to set up and use with your app.  I highly recommend it. Today, however, I’m going to show you how to take a standard chat application and go from using Parse to using our own server written in Node. Why? Because it’ll be good for you (you’ve been meaning to learn Node for a while now, right?).</p>
 
 <p>We’re also going to implement a Parse-like feature (sorting) in our server. I’m going to show you most of the key points along the way, but if you&rsquo;re coding along at home the implementation of some of these steps will be up to you (you can refer to my example code <a href="https://github.com/georgebonnr/NodeBackend">here</a> if interested). Let’s get started!</p>
 
@@ -469,42 +302,15 @@ var get = function(options){
 <p>Check out the <a href="http://nodejs.org/api/fs.html">fs documentation</a> and <a href="http://nathansjslessons.appspot.com/lesson?id=1085">this walkthrough</a> for more info on asynchronous alternatives and try some of them out if you&rsquo;re feeling feisty (remember you&rsquo;ll need to wait until your file is completely read before you send back your http response, which means you&rsquo;ll need to do that work in a callback. To avoid repeating <code>response.writeHead</code> and <code>response.end</code> code in every one your routes, try defining a single <code>responseSet</code> function that each of your routes can call, passing in the appropriate headers and response body as arguments).</p>
 
 <p>There are quite a few details that we didn&rsquo;t go over, but hopefully this gives you a broad overview of a server&rsquo;s basic functionality, and how you can implement that functionality in Node.  Check out the example backend code <a href="https://github.com/georgebonnr/NodeBackend">here</a>, and keep exploring the wonderful world of Node!</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/techwritings/blog/2013/10/18/dev-tools-debugging-tips/">Dev Tools Debugging Tips</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-18T09:58:00-07:00" pubdate data-updated="true">Oct 18<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>NOTE: This is a blog post I wrote for incoming students at Hack Reactor &mdash; Hack Reactor ended up liking it so much they made it part of the pre-course curriculum! If you&rsquo;re a new or prospective developer, hopefully you&rsquo;ll find it helpful too.</p>
+  <entry>
+    <title type="html"><![CDATA[Dev Tools Debugging Tips]]></title>
+    <link href="http://georgebonnr.github.io/techwritings/blog/2013/10/18/dev-tools-debugging-tips/"/>
+    <updated>2013-10-18T09:58:00-07:00</updated>
+    <id>http://georgebonnr.github.io/techwritings/blog/2013/10/18/dev-tools-debugging-tips</id>
+    <content type="html"><![CDATA[<p>NOTE: This is a blog post I wrote for incoming students at Hack Reactor &mdash; Hack Reactor ended up liking it so much they made it part of the pre-course curriculum! If you&rsquo;re a new or prospective developer, hopefully you&rsquo;ll find it helpful too.</p>
 
 <p>As you might imagine we use Chrome Dev Tools quite a bit at Hack Reactor.  Dev Tools has quickly become an indispensable tool for front-end work, but it&rsquo;s even more valuable as a debugging tool for your javascript programs.</p>
 
@@ -539,11 +345,11 @@ var loop = function(array, iterator) {
 
 <p>When I open the page and the script runs I see:</p>
 
-<p><img src="/techwritings/images/devtools_post/alert1.png" /></p>
+<p><img src="http://georgebonnr.github.io/techwritings/images/devtools_post/alert1.png" /></p>
 
-<p><img src="/techwritings/images/devtools_post/alert2.png" /></p>
+<p><img src="http://georgebonnr.github.io/techwritings/images/devtools_post/alert2.png" /></p>
 
-<p><img src="/techwritings/images/devtools_post/alert3.png" /></p>
+<p><img src="http://georgebonnr.github.io/techwritings/images/devtools_post/alert3.png" /></p>
 
 <p>Ruh-roh.  Where&rsquo;s the index?  You probably already know why it&rsquo;s not displaying, but I&rsquo;m going to use this simple scenario to demonstrate what a typical debugging workflow would look like.  A good question to ask yourself when you encounter a bug is &ldquo;what is the justification for my expectation that my code will run the way that I expect?</p>
 
@@ -553,7 +359,7 @@ var loop = function(array, iterator) {
 Here&rsquo;s what happens in Dev Tools (<code>command</code>+<code>option</code>+<code>i</code> in Chrome) when we run the code again with our debugger statement inserted:</p>
 
 <p>(open images in new tab to see them at full size)
-<img src="/techwritings/images/devtools_post/debug1.png" /></p>
+<img src="http://georgebonnr.github.io/techwritings/images/devtools_post/debug1.png" /></p>
 
 <p>Step over/into/out of are very handy tools that you will be using for potentially hours on end, so here are some more details on each:</p>
 
@@ -568,16 +374,16 @@ Here&rsquo;s what happens in Dev Tools (<code>command</code>+<code>option</code>
 
 <p>At the beginning of line 18 my console will look exactly the same.  Line 18, however, contains the call to the loop function, so I&rsquo;m going to click &ldquo;step into.&rdquo;  Here&rsquo;s what I&rsquo;ll see:</p>
 
-<p><img src="/techwritings/images/devtools_post/debug2.png" /></p>
+<p><img src="http://georgebonnr.github.io/techwritings/images/devtools_post/debug2.png" /></p>
 
 <p>I&rsquo;m going to click step over again to get to line 8, then I&rsquo;m going to click step into to go into my iterator call (in this case the anonymous function where I&rsquo;m alerting).  Here&rsquo;s what I see:</p>
 
-<p><img src="/techwritings/images/devtools_post/debug3.png" /></p>
+<p><img src="http://georgebonnr.github.io/techwritings/images/devtools_post/debug3.png" /></p>
 
 <br>
 
 
-<p><img src="/techwritings/images/devtools_post/debug4.png" /></p>
+<p><img src="http://georgebonnr.github.io/techwritings/images/devtools_post/debug4.png" /></p>
 
 <p>For a problem this simple it may have seemed like overkill to use this debugging procedure in Dev Tools (especially when you can hit line 8 with a rock from line 19).
 When your program gets big enough, though, that your functions call functions located in other files, or your recursive function has a bug somewhere in its 15th call to itself, Dev Tools will save your butt.</p>
@@ -585,42 +391,15 @@ When your program gets big enough, though, that your functions call functions lo
 <p>Practice this pattern!</p>
 
 <p>As always, shoot any questions or conversations to <a href="&#x6d;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x67;&#101;&#111;&#x72;&#x67;&#101;&#x62;&#111;&#x6e;&#110;&#x72;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#103;&#x65;&#x6f;&#114;&#x67;&#x65;&#98;&#111;&#110;&#x6e;&#114;&#64;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;</a></p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/techwritings/blog/2013/10/06/maker-patterns-pt-2/">Maker Patterns Pt. 2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-06T20:25:00-07:00" pubdate data-updated="true">Oct 6<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>All About Prototypes</h2>
+  <entry>
+    <title type="html"><![CDATA[Maker Patterns Pt. 2]]></title>
+    <link href="http://georgebonnr.github.io/techwritings/blog/2013/10/06/maker-patterns-pt-2/"/>
+    <updated>2013-10-06T20:25:00-07:00</updated>
+    <id>http://georgebonnr.github.io/techwritings/blog/2013/10/06/maker-patterns-pt-2</id>
+    <content type="html"><![CDATA[<h2>All About Prototypes</h2>
 
 <p>We&rsquo;ve all got baggage. Javascript is no exception. It just so happens that every single function that gets defined in Javascript comes with its own companion object called a prototype. This prototype object in most cases hangs around doing nothing at all (besides creating useless overhead). When it comes time to instantiate an object in Javascript, though, this prototype &ldquo;assistant&rdquo; offers powerful functionality.</p>
 
@@ -704,42 +483,15 @@ var myPizza = new Pizza(14)
 <p>That&rsquo;s it! If you want to review the other two patterns you can find them <a href="http://georgebonnr.github.io/blog/2013/10/02/maker-patterns-pt-1/">here</a>.  Now go ahead and use these patterns to build your cats website. I was joking when I said it was dumb&hellip; it&rsquo;s gonna be great, people will love it.</p>
 
 <p>As always if you have more questions feel free to email me at <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x67;&#101;&#111;&#114;&#103;&#101;&#x62;&#111;&#110;&#110;&#x72;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x67;&#x65;&#x6f;&#114;&#x67;&#x65;&#98;&#111;&#x6e;&#110;&#114;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a>.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/techwritings/blog/2013/10/02/maker-patterns-pt-1/">Maker Patterns Pt. 1</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-10-02T22:34:00-07:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hey kids!</p>
+  <entry>
+    <title type="html"><![CDATA[Maker Patterns Pt. 1]]></title>
+    <link href="http://georgebonnr.github.io/techwritings/blog/2013/10/02/maker-patterns-pt-1/"/>
+    <updated>2013-10-02T22:34:00-07:00</updated>
+    <id>http://georgebonnr.github.io/techwritings/blog/2013/10/02/maker-patterns-pt-1</id>
+    <content type="html"><![CDATA[<p>Hey kids!</p>
 
 <p>Let&rsquo;s talk about making things in Javascript.  I don&rsquo;t mean making your dumb cats website, I mean making things IN Javascript.  What are some useful ways to make (build / instantiate) things (objects) in the Javascript language?</p>
 
@@ -813,115 +565,7 @@ You can do a wide variety things in Javascript with mixins &mdash; if you want t
 
 <p>Next Post:
 I&rsquo;ll get into prototypes in Javascript &ndash; what they are, how they came to be, and different ways you can use them to construct objects.  If you have any questions about anything in this post you can email me through my Github profile in the sidebar. Stay tuned!</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/techwritings/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/techwritings/blog/2014/02/08/how-to-crash-chrome-v8-in-one-line/">How to Crash Chrome V8 in One Line</a>
-      </li>
-    
-      <li class="post">
-        <a href="/techwritings/blog/2014/01/19/">Prototypes Are Not Classes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/techwritings/blog/2013/11/11/i-just-presented-at-launch-hackathon/">I Just Presented as a Finalist at LAUNCH Hackathon</a>
-      </li>
-    
-      <li class="post">
-        <a href="/techwritings/blog/2013/10/28/prototyping-a-parse-like-server-in-node/">Prototyping a Parse-like Server in Node</a>
-      </li>
-    
-      <li class="post">
-        <a href="/techwritings/blog/2013/10/18/dev-tools-debugging-tips/">Dev Tools Debugging Tips</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub</h1>
-  <ul id="gh_repos">
-    <h2><a href="https://github.com/georgebonnr">georgebonnr</a></h2>
-  </ul>
-  
-  <!-- <a href="https://github.com/georgebonnr">@georgebonnr</a> on GitHub &#8211;>
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'georgebonnr',
-            count: none,
-            skip_forks: false,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/techwritings/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - George Bonner -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-  - <span class="credit">Theme by <a href="http://www.gehaxelt.in">Gehaxelt</a></span>
-  <span class="credit">and <a href="http://www.it-solutions-neef.de">IT Solutions Neef</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
